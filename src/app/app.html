@@ -1,0 +1,33 @@
+<header class="site-header">
+  <div class="brand">
+    <img class="logo">
+    <h1 class="tituloG">HYPERFIT LAB</h1>
+  </div>
+
+  <!-- Icono menú hamburguesa -->
+  <div class="menu-icon" id="menuBtn">
+   <span class="span">Conoce más</span>
+    ☰
+  </div>
+
+  <!-- Menú desplegable -->
+  <nav class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a routerLink="/alimentacion">Alimentación</a></li>
+      <li><a routerLink="/entrenamiento">Entrenamiento</a></li>
+      <li><a routerLink="/entrenador">Entrenador</a></li>
+      <li><a routerLink="/ayudas">Ayudas</a></li>
+      <li><a routerLink="/contacto">Contacto</a></li>
+      <li><a routerLink="/empieza">Planes</a></li>
+    </ul>
+  </nav>
+</header>
+ <main class="hero">
+    <p>Transforma tu cuerpo hoy...</p>
+    <br>
+    <p>Alcanza tu máximo potencial con nuestros planes de entrenamiento</p>
+    <br>
+    <a routerLink="/formulario"><button class="cta">Empezar Ahora</button></a>
+  </main>
+  <router-outlet></router-outlet>
+
